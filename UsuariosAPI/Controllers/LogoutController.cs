@@ -4,26 +4,25 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using UsuariosAPI.Data.Request;
 using UsuariosAPI.Services;
 
 namespace UsuariosAPI.Controllers
 {
-    [Route("[controller]")]
     [ApiController]
-    public class LoginController : ControllerBase
+    [Route("[controller]")]
+    public class LogoutController : ControllerBase
     {
-        private LoginService _loginService;
+        private LogoutService _logoutService;
 
-        public LoginController(LoginService loginService)
+        public LogoutController(LogoutService logoutService)
         {
-            _loginService = loginService;
+            _logoutService = logoutService;
         }
 
         [HttpPost]
-        public IActionResult LogaUsuario(LoginRequest request)
+        public IActionResult DeslogaUsuario()
         {
-            Result resultado = _loginService.LogaUsuario(request);
+            Result resultado = _logoutService.DeslogaUsuario();
             if (resultado.IsFailed) return Unauthorized(resultado.Errors);
             return Ok(resultado.Successes);
         }

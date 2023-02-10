@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\alura\\FilmesAPI_v1\\FilmesAPI\\FilmesAPI.csproj": {}
+    "C:\\dev\\alura\\FilmesAPI\\FilmesAPI\\FilmesAPI.csproj": {}
   },
   "projects": {
-    "C:\\dev\\alura\\FilmesAPI_v1\\FilmesAPI\\FilmesAPI.csproj": {
+    "C:\\dev\\alura\\FilmesAPI\\FilmesAPI\\FilmesAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\alura\\FilmesAPI_v1\\FilmesAPI\\FilmesAPI.csproj",
+        "projectUniqueName": "C:\\dev\\alura\\FilmesAPI\\FilmesAPI\\FilmesAPI.csproj",
         "projectName": "FilmesAPI",
-        "projectPath": "C:\\dev\\alura\\FilmesAPI_v1\\FilmesAPI\\FilmesAPI.csproj",
+        "projectPath": "C:\\dev\\alura\\FilmesAPI\\FilmesAPI\\FilmesAPI.csproj",
         "packagesPath": "C:\\Users\\erezende\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\alura\\FilmesAPI_v1\\FilmesAPI\\obj\\",
+        "outputPath": "C:\\dev\\alura\\FilmesAPI\\FilmesAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

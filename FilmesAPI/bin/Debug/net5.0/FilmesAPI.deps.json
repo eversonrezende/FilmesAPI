@@ -37,7 +37,7 @@
           "FluentResults": "2.5.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "5.0.5",
           "Microsoft.EntityFrameworkCore": "5.0.5",
-          "Microsoft.EntityFrameworkCore.Proxies": "5.0.0",
+          "Microsoft.EntityFrameworkCore.Proxies": "5.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.5",
           "MySql.EntityFrameworkCore": "5.0.3",
@@ -632,15 +632,15 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Proxies/5.0.0": {
+      "Microsoft.EntityFrameworkCore.Proxies/5.0.5": {
         "dependencies": {
           "Castle.Core": "4.4.1",
           "Microsoft.EntityFrameworkCore": "5.0.5"
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Proxies.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.52303"
+            "assemblyVersion": "5.0.5.0",
+            "fileVersion": "5.0.521.16102"
           }
         },
         "compile": {
@@ -3743,12 +3743,12 @@
       "path": "microsoft.entityframeworkcore.design/5.0.5",
       "hashPath": "microsoft.entityframeworkcore.design.5.0.5.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Proxies/5.0.0": {
+    "Microsoft.EntityFrameworkCore.Proxies/5.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3GjUVonhHpx1n8vt5QO6E5Q1pbO2vUrNBSRXQDQzTNexRRdbO7eBMpr59skEWIjG1zt8SAVi0yzeCauTYI90yA==",
-      "path": "microsoft.entityframeworkcore.proxies/5.0.0",
-      "hashPath": "microsoft.entityframeworkcore.proxies.5.0.0.nupkg.sha512"
+      "sha512": "sha512-kLPZnY7opUH2wlZ8csVFcoQ9qJR0WpYTfcd0WTbeAJkoozMwrjAi99zp5dOZW58QF5VJt1o76osEWSBB+++pPQ==",
+      "path": "microsoft.entityframeworkcore.proxies/5.0.5",
+      "hashPath": "microsoft.entityframeworkcore.proxies.5.0.5.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/5.0.5": {
       "type": "package",

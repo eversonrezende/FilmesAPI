@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\alura\\FilmesAPI_v1\\UsuariosAPI\\UsuariosAPI.csproj": {}
+    "C:\\dev\\alura\\FilmesAPI\\UsuariosAPI\\UsuariosAPI.csproj": {}
   },
   "projects": {
-    "C:\\dev\\alura\\FilmesAPI_v1\\UsuariosAPI\\UsuariosAPI.csproj": {
+    "C:\\dev\\alura\\FilmesAPI\\UsuariosAPI\\UsuariosAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\alura\\FilmesAPI_v1\\UsuariosAPI\\UsuariosAPI.csproj",
+        "projectUniqueName": "C:\\dev\\alura\\FilmesAPI\\UsuariosAPI\\UsuariosAPI.csproj",
         "projectName": "UsuariosAPI",
-        "projectPath": "C:\\dev\\alura\\FilmesAPI_v1\\UsuariosAPI\\UsuariosAPI.csproj",
+        "projectPath": "C:\\dev\\alura\\FilmesAPI\\UsuariosAPI\\UsuariosAPI.csproj",
         "packagesPath": "C:\\Users\\erezende\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\alura\\FilmesAPI_v1\\UsuariosAPI\\obj\\",
+        "outputPath": "C:\\dev\\alura\\FilmesAPI\\UsuariosAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -87,6 +87,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.0, )"
             }
           },
           "imports": [
