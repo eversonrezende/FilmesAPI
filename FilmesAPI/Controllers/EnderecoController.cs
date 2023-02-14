@@ -1,10 +1,6 @@
-﻿using AutoMapper;
-using FilmesAPI.Data;
-using FilmesAPI.Models;
-using FilmesAPI.Data.Dtos;
+﻿using FilmesAPI.Data.Dtos;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using System.Linq;
 using FilmesAPI.Services;
 using FluentResults;
 

@@ -3,10 +3,7 @@ using FilmesAPI.Data;
 using FilmesAPI.Data.Dtos.Gerente;
 using FilmesAPI.Models;
 using FluentResults;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace FilmesAPI.Services
 {
