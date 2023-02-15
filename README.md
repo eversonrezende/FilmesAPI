@@ -1,8 +1,8 @@
 # API de Filmes e Cinemas
 
-> Status: Em Desenvolvimento
+> Status: Concluído
 
-Criação de API para atender a uma plataforma de Filmes e Cinema.
+Criação de API em .NET 5 para atender a uma plataforma de Filmes.
 As principais funcionalidades serão:
 
 * API com rotas implementadas segundo o padrão REST;
@@ -14,7 +14,7 @@ As principais funcionalidades serão:
 Tecnologias utilizadas:
 
 ```
-.Net v7.0.100
+.Net v5.0
 ```
 ```
 Postman v10.4.0
