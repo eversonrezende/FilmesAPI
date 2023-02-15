@@ -2,7 +2,6 @@
 using FluentResults;
 using Microsoft.AspNetCore.Identity;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Web;
 using UsuariosAPI.Data.Dtos;
 using UsuariosAPI.Data.Request;

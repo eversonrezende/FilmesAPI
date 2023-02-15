@@ -51,14 +51,14 @@ namespace UsuariosAPI.Migrations
                         new
                         {
                             Id = 99999,
-                            ConcurrencyStamp = "188b95f0-0685-4649-9210-ddf2bf0a6064",
+                            ConcurrencyStamp = "8ccfb3f5-eba6-41ed-b43f-bfa071c4d604",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = 99998,
-                            ConcurrencyStamp = "85e436b9-cd60-4f04-9c1c-b3734e6cd871",
+                            ConcurrencyStamp = "4945ccd4-96bf-45db-bdf5-f58738394120",
                             Name = "regular",
                             NormalizedName = "REGULAR"
                         });
@@ -158,15 +158,15 @@ namespace UsuariosAPI.Migrations
                         {
                             Id = 99999,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b9851291-dadc-4139-9dc7-dd0f20b8fbe6",
+                            ConcurrencyStamp = "c6207334-6136-41e0-bda9-144209164226",
                             Email = "admin@admin.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@ADMIN.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEMUyl6t8PZa5zOIKdotcQdbIjGxyVuk2KtWNLG5WmMxotyECf/h7uBaKGOvk01rsHA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAENKop/YwE6f0DzWlFUnu9s15cJQWLUz6f1TSnweAxgU/qHkYZoxd9l3Tk/8MOHGIIQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "34b1a278-f5f5-447a-85ad-a44aa658da8f",
+                            SecurityStamp = "fdca2d3d-b954-43ec-9a05-5b011ba6aa62",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });
