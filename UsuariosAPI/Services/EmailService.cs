@@ -17,13 +17,13 @@ namespace UsuariosAPI.Services
         public void EnviaEmail(string[] destinatario, string assunto, int usuarioId, string code)
         {
             Mensagem mensagem = new Mensagem(destinatario, assunto, usuarioId, code);
-            var mensagemDeEmail = CriaCorpoEmail(mensagem) ;
+            var mensagemDeEmail = CriaCorpoEmail(mensagem);
             EnviaEmail(mensagemDeEmail);
         }
 
         private void EnviaEmail(MimeMessage mensagemDeEmail)
         {
-            using(var client = new SmtpClient())
+            using (var client = new SmtpClient())
             {
                 try
                 {

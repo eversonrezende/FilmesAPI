@@ -36,7 +36,7 @@ namespace UsuariosAPI.Services
             {
                 string code = _userManager.GenerateEmailConfirmationTokenAsync(usuarioIdentity).Result;
                 var encodedCode = HttpUtility.UrlEncode(code);
-                _emailService.EnviaEmail(new[] { usuarioIdentity.Email },"Link de Ativação", usuarioIdentity.Id, encodedCode);
+                _emailService.EnviaEmail(new[] { usuarioIdentity.Email }, "Link de Ativação", usuarioIdentity.Id, encodedCode);
                 return Result.Ok().WithSuccess(code);
             }
             return Result.Fail("Falha ao cadastrar usuário");
@@ -46,7 +46,7 @@ namespace UsuariosAPI.Services
         {
             var identityUser = _userManager.Users.FirstOrDefault(u => u.Id == request.UsuarioId);
             var identityResult = _userManager.ConfirmEmailAsync(identityUser, request.CodigoDeAtivacao).Result;
-            if(identityResult.Succeeded)
+            if (identityResult.Succeeded)
             {
                 return Result.Ok();
             }
