@@ -142,4 +142,3 @@ C:\dev\alura\FilmesAPI\UsuariosAPI\obj\Debug\net5.0\UsuariosAPI.dll
 C:\dev\alura\FilmesAPI\UsuariosAPI\obj\Debug\net5.0\ref\UsuariosAPI.dll
 C:\dev\alura\FilmesAPI\UsuariosAPI\obj\Debug\net5.0\UsuariosAPI.pdb
 C:\dev\alura\FilmesAPI\UsuariosAPI\obj\Debug\net5.0\UsuariosAPI.genruntimeconfig.cache
-C:\dev\alura\FilmesAPI\UsuariosAPI\obj\Debug\net5.0\UsuariosAPI.csproj.AssemblyReference.cache
