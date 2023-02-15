@@ -154,3 +154,6 @@ C:\dev\alura\FilmesAPI\FilmesAPI\obj\Debug\net5.0\FilmesAPI.dll
 C:\dev\alura\FilmesAPI\FilmesAPI\obj\Debug\net5.0\ref\FilmesAPI.dll
 C:\dev\alura\FilmesAPI\FilmesAPI\obj\Debug\net5.0\FilmesAPI.pdb
 C:\dev\alura\FilmesAPI\FilmesAPI\obj\Debug\net5.0\FilmesAPI.genruntimeconfig.cache
+C:\dev\alura\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\dev\alura\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authorization.dll
+C:\dev\alura\FilmesAPI\FilmesAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Metadata.dll

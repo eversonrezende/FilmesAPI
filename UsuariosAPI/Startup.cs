@@ -34,6 +34,7 @@ namespace UsuariosAPI
             services.AddDbContext<UserDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("UsuarioConnection"))
             );
+
             services.AddIdentity<IdentityUser<int>, IdentityRole<int>>(
                 opt => opt.SignIn.RequireConfirmedEmail = true
                 )
